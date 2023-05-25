@@ -1,0 +1,34 @@
+<DOCTYPE html>
+    <html>
+       
+        <head>
+            <title>Java Script Example</title>
+            
+        </head>
+    
+        <body>
+            <h1> JAVASCRIPT.</h1>
+            <p id="result"> Welcome to Web Design And Development Page.</p>
+            <p> write any number to create a table</p>
+            <script>
+                var a = 10;
+                
+                function fcall()
+                {
+                    n = document.form1.data1.value;
+                    var r = 1;
+                    var a = 0;
+                    for (a=0; a<10; a++)
+                    {
+                        r = n*a;
+                        document.write(n+" x "+a+" = " + r +"<br>");
+                    }
+                }
+            </script>    
+            <form name="form1">
+                <input type="text" name="data1">
+                <input type="button" value="show" onclick="fcall()">
+            </form>
+    
+        </body>
+    </html>
